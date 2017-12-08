@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pelu_bg">180dp</dimen>
+    <dimen name="dimen">25dp</dimen>
+    <dimen name="dimen_ven">160dp</dimen>
+    <dimen name="dimen_icono">55dp</dimen>
+    <dimen name="botones">50dp</dimen>
+    <dimen name="boton_ancho">70dp</dimen>
+    <dimen name="ancho_boton">100dp</dimen>
+    <dimen name="titulo">25dp</dimen>
+    <dimen name="tittleaparence">25sp</dimen>
+    <dimen name="img_info">400dp</dimen>
+    <dimen name="margin_width">24dp</dimen>
+    <dimen name="margin_height">25dp</dimen>
+    <dimen name="margin_left">8dp</dimen>
+    <dimen name="margin_top">16dp</dimen>
+    <dimen name="margin_button">0dp</dimen>
+    <dimen name="dimen_button">88dp</dimen>
+    <dimen name="dimen_heightb">50dp</dimen>
+    <dimen name="dimen_collap">200dp</dimen>
+    <dimen name="marginten">10dp</dimen>
+    <dimen name="marginlayout">180dp</dimen>
+    <dimen name="margin_right">7dp</dimen>
+    <dimen name="margin_tr">32dp</dimen>
+    <dimen name="textdimen">24sp</dimen>
+    <dimen name="dimen_text">300dp</dimen>
+</resources>

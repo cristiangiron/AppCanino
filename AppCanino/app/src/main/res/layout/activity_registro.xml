@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="registro"
+            type="com.example.cristiangiron.appcanino.RegistroActivity"/>
+
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.cristiangiron.appcanino.RegistroActivity">
+
+        <Button
+            android:id="@+id/btnReg"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="@dimen/margin_button"
+            android:layout_height="@dimen/dimen_icono"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="@dimen/margin_left"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginRight="@dimen/margin_left"
+            android:layout_marginStart="@dimen/margin_left"
+            android:layout_weight="1"
+            android:text="@string/regis"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:text="@string/regis"
+
+            app:layout_constraintHorizontal_bias="0.0"
+            android:onClick="@{()->registro.register()}"
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="@dimen/margin_button"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_left"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginRight="@dimen/margin_left"
+            android:layout_marginStart="@dimen/margin_left"
+            android:gravity="center"
+            android:text="@string/registro_1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/color_icon"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:text="@string/registro_1"
+            android:layout_marginBottom="@dimen/margin_left"
+            app:layout_constraintBottom_toTopOf="@+id/textInputLayout" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="@dimen/margin_button"
+            android:layout_height="wrap_content"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:id="@+id/textInputLayout"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/textInputLayout2">
+
+            <EditText
+                android:id="@+id/etNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name"
+                android:inputType="text" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="@dimen/margin_button"
+            android:layout_height="wrap_content"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:id="@+id/textInputLayout2"
+            android:layout_marginBottom="@dimen/margin_top"
+            app:layout_constraintBottom_toTopOf="@+id/textInputLayout3">
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/mail"
+                android:inputType="textEmailAddress" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="@dimen/margin_button"
+            android:layout_height="wrap_content"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:id="@+id/textInputLayout3"
+            android:layout_marginBottom="@dimen/margin_top"
+            app:layout_constraintBottom_toTopOf="@+id/textInputLayout4">
+
+            <EditText
+                android:id="@+id/etPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/contraseña"
+                android:inputType="textPassword"
+                android:maxLength="@integer/max_contrase" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="@dimen/margin_button"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_button"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="@dimen/margin_button"
+            app:layout_constraintRight_toRightOf="parent"
+            android:id="@+id/textInputLayout4"
+            android:layout_marginBottom="@dimen/margin_top"
+            app:layout_constraintBottom_toTopOf="@+id/btnReg">
+
+            <EditText
+                android:id="@+id/etConfir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password_confir"
+                android:inputType="textPassword"
+                android:maxLength="@integer/max_contrase" />
+        </android.support.design.widget.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="@dimen/margin_button"
+            android:layout_height="@dimen/margin_button"
+            android:layout_marginBottom="@dimen/margin_left"
+            android:layout_marginLeft="@dimen/margin_button"
+            android:layout_marginRight="@dimen/margin_button"
+            android:layout_marginTop="@dimen/margin_left"
+            android:contentDescription="@string/logo"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo2" />
+
+    </android.support.constraint.ConstraintLayout>
+</layout>
+

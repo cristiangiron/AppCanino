@@ -1,0 +1,81 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLogin"
+    tools:context="com.example.cristiangiron.appcanino.Fragments.InformacionFragment">
+
+
+    <ScrollView
+        android:layout_width="@dimen/margin_button"
+        android:layout_height="@dimen/margin_button"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/margin_left"
+        android:layout_marginLeft="@dimen/margin_left"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="@dimen/margin_left"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="@dimen/margin_left"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/interes"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="@color/color_parallax"
+                tools:text="@string/interes" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/alimentacion" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/alimentacion"
+                android:textColor="@color/color_parallax"
+                android:textSize="@dimen/textdimen"
+                tools:text="@string/alimentacion" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/informacion"
+                android:textSize="18sp"
+                tools:text="@string/informacion" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/infovacunas"
+                android:textColor="@color/color_parallax"
+                android:textSize="@dimen/textdimen"
+                tools:text="@string/infovacunas" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/imagen_vacuna" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

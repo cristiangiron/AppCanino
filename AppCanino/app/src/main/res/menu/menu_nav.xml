@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_ubicacion" android:title="@string/ver_peluquerias" android:icon="@drawable/ubicaciones"/>
+    <item android:id="@+id/nav_res" android:title="@string/descuentos" android:icon="@drawable/reservaciones"/>
+    <item android:id="@+id/nav_des" android:title="@string/interes" android:icon="@drawable/perfil"/>
+    <item android:id="@+id/nav_fav" android:title="@string/fav" android:icon="@drawable/fav"/>
+    <item android:title="@string/mi_perfil">
+
+    <menu>
+
+        <item android:id="@+id/nav_log" android:title="@string/cerrar_sesion"/>
+
+    </menu>
+
+</item>
+
+</menu>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1565c0</color>
+    <color name="colorPrimaryDark">#003c8f</color>
+    <color name="colorAccent">#00a9f4</color>
+    <color name="colorLogin">#ffffff</color>
+    <color name="color_icon">#0277bd</color>
+    <color name="color_bg">#555</color>
+    <color name="color_nav">#03a9f4</color>
+    <color name="color_fondo">#35a1e2</color>
+    <color name="color_textinput">#eeeeee</color>
+    <color name="color_res">#455a64</color>
+    <color name="color_splash">#26a69a</color>
+    <color name="color_parallax">#01579b</color>
+    <color name="cardview">#e0e0e0</color>
+    <color name="colorfavorite">#ff5252</color>
+</resources>

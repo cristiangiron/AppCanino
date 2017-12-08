@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <data>
+        <variable
+            name="handler"
+            type="com.example.cristiangiron.appcanino.MainActivity"/>
+
+        <variable
+            name="handlerRegistro"
+            type="com.example.cristiangiron.appcanino.MainActivity"/>
+    </data>
+
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.cristiangiron.appcanino.MainActivity">
+
+        <ImageView
+            android:id="@+id/imagen_inicio"
+            android:layout_width="@dimen/margin_button"
+            android:layout_height="@dimen/margin_button"
+            android:layout_marginBottom="@dimen/margin_left"
+            android:layout_marginLeft="@dimen/margin_button"
+            android:layout_marginStart="@dimen/margin_left"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:src="@drawable/splash"
+            app:layout_constraintBottom_toTopOf="@+id/guideline"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="@dimen/margin_left" />
+
+        <Button
+            android:id="@+id/btnReg"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="@dimen/margin_button"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_left"
+            android:text="@string/registro"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/btnLogin"
+            android:onClick="@{()->handler.goToRegister()}"/>
+
+
+
+        <Button
+            android:id="@+id/btnLogin"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="@dimen/margin_button"
+            android:layout_height="wrap_content"
+            android:text="@string/entrar"
+            app:layout_constraintLeft_toRightOf="@+id/btnReg"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnReg"
+            android:onClick="@{()->handler.login()}"
+            />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guideline"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.5"
+            tools:layout_editor_absoluteY="337dp"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="@dimen/margin_button"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/imagen_inicio"
+            android:layout_marginRight="@dimen/margin_left"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="@dimen/margin_left"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginStart="@dimen/margin_left"
+            android:layout_marginEnd="@dimen/margin_left"
+            android:id="@+id/textInputLayout6"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintBottom_toTopOf="@+id/textInputLayout7"
+            app:layout_constraintVertical_chainStyle="spread">
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/mail"
+                android:inputType="textEmailAddress" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="@dimen/margin_button"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_left"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="@dimen/margin_left"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout6"
+            android:id="@+id/textInputLayout7"
+            android:layout_marginStart="@dimen/margin_left"
+            android:layout_marginEnd="@dimen/margin_left"
+            android:layout_marginBottom="@dimen/margin_left"
+            app:layout_constraintBottom_toTopOf="@+id/btnReg">
+
+            <EditText
+                android:id="@+id/etPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/contraseña"
+                android:inputType="textPassword" />
+        </android.support.design.widget.TextInputLayout>
+
+    </android.support.constraint.ConstraintLayout>
+</layout>
+

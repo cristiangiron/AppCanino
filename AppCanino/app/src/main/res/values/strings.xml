@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">AppCanino</string>
+    <string name="registro">Registro</string>
+    <string name="entrar">Entrar</string>
+    <string name="usuario">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="perfil">Perfil</string>
+    <string name="reservaciones">reservaciones</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="res">Reservaciones</string>
+    <string name="fav">Favoritos</string>
+    <string name="per">Perfil</string>
+    <string name="sesion">Cerrar Sesión</string>
+    <string name="cerrar_sesion">Cerrar Sesion</string>
+    <string name="title_activity_maps">AppCanino</string>
+    <string name="bonos_de_descuento">Bonos De Descuento</string>
+    <string name="Bonos">bonos</string>
+    <string name="descuentos">Descuentos Especiales</string>
+    <string name="cerrar_ses">Cerrar Sesion</string>
+    <string name="salir">salir</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mis_mascotas">Mis Mascotas</string>
+    <string name="nombre">Cristian Giron</string>
+    <string name="mis_mascota">Mis Mascotas</string>
+    <string name="mascota_1">Mascota Numero 1</string>
+    <string name="mascota_2">Mascota Numero 2</string>
+    <string name="mascota_3">Mascota Numero 3</string>
+    <string name="name_us">App Canino</string>
+    <string name="correo_app">Appcaninosupport@gmail.com</string>
+    <string name="registro_1">Formulario De Registro</string>
+    <string name="name">Nombre Completo</string>
+    <string name="logo">Logo</string>
+    <string name="mail">Dirección De Correo Electrónico</string>
+    <string name="regis">Registrarme</string>
+    <string name="password_confir">Confirmar Contraseña</string>
+    <string name="open">Menu abierto</string>
+    <string name="close">Menu cerrado</string>
+    <string name="direpeluditos"> Peluditos Peluqueria-Calle 4 # 3 45</string>
+    <string name="animaldireccion">Animal Doctor-Calle 3 # 6 21</string>
+    <string name="animalitosdireccion">Animalitos Peluqueria-Calle 21 # 5 34</string>
+    <string name="canichesdireccion">Peluqueria Caniches-Carrera 5 # 7 68</string>
+    <string name="huellasdireccion">Huellas Peluqueria-Calle 53 # 25 36</string>
+    <string name="mascotasdireccion">Peluqueria Canina Mascotas-Calle 5 # 3 60</string>
+    <string name="saloncanino">Salon Canino-Carrera 5 # 3 45</string>
+    <string name="tel">Telefono</string>
+    <string name="horario">Horario De Atención = Lunes a Sábado 8am a 6pm</string>
+    <string name="time">Seleccione Fecha</string>
+    <string name="date">Fecha</string>
+    <string name="time_1">Hora</string>
+    <string name="Res_1">Reservar</string>
+    <string name="mi_perfil">Perfil</string>
+    <string name="ver_peluquerias">Ver Peluquerias</string>
+    <string name="huellas">Huellas Peluqueria </string>
+    <string name="save">Guardar</string>
+    <string name="peluditos">Peluditos Peluqueria</string>
+    <string name="animalitos">Animalitos Peluqueria</string>
+    <string name="mascotas">Mascotas Peluqueria</string>
+    <string name="caniches">Peluqueria Caniches</string>
+    <string name="salon">Salon Canino</string>
+    <string name="animal">Animal Doctor</string>
+    <string name="pelos">Pelos Y Patas</string>
+    <string name="peluqueria01">En Peluditos Peluqueria Canina descubriras un nuevo mundo para tú mascota, en un ambiente
+    ideado solo para su bienestar. No lo dudes ven a conocernos, aquí descubrirás una gran variedad de servicios. También podrás
+    encontrar accesorios para tu mascota; como collares, correas y muchas cosas más</string>
+    <string name="telefono_01">Telefono = 8381935</string>
+    <string name="telefono_02">Telefono = 8231654</string>
+    <string name="reservacion">Reservación</string>
+    <string name="cancelar_reserva">Ver Reservaciones</string>
+    <string name="infovacunas">Información Importante Sobre Vacunación</string>
+    <string name="interes">Información De  Interés</string>
+    <string name="inforeservar">No Hay Información</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="namereserva">Lugar De La Reservación</string>
+    <string name="reservacionp">Reservación Pendiente</string>
+
+    <string name="informacion">  El tema de la alimentación es un tema muy serio ya que, va a depender de ésta, el estado de salud físico y emocional de nuestro perro.
+        Para empezar debemos tener claro que una cosa es nutrir y otra cosa es alimentar. Alimentar es comer pero no implica nutrir. Los nutrientes son fundamentales para todo ser vivo y nuestros perros no son menos. Si queremos realmente nutrirles, y no solo darles de comer, debemos tener en cuenta su naturaleza.
+        El perro es carnívoro por naturaleza. Es un animal carnívoro que ha sido omnivorizado por el hombre. Desde que hace miles de años empezó su andadura junto al ser humano, el perro ha comido prácticamente de todo lo que comía el ser humano, pero ¿es esto bueno?
+        Todos sabemos que no, pero muchos propietarios se sienten mejor consintiendo a sus perros e ignorando (o pasando por alto) el daño que pueden llegar a hacerles a todos los niveles: problemas de piel, alergias, problemas estomacales como diarreas y vómitos, gases, apatía, obesidad, problemas hepáticos, etc. Parece que hasta que no pasa nada grave, no hacemos nada por preocuparnos por alimentar y nutrir a nuestro perro como se merece: según su naturaleza. </string>
+
+
+    <string name="alimentacion">Alimentación</string>
+</resources>
+
